@@ -22,8 +22,9 @@ function Cart() {
     setScreenSize(window.innerWidth);
   };
   const handleChildValue = (value) => {
+    
     setChildValue(childValue => childValue + value);
-
+    console.log(childValue + 'value')
   }
   useEffect(() => {
     if(localStorage.getItem('token') ===null){
@@ -43,7 +44,9 @@ function Cart() {
     redirect('/')
  }
  const placeorderhandler=()=>{
-  redirect('/checkout' , {state : cartdata})
+ console.log(JSON.stringify(cartdata) + 'cart data');
+
+  redirect('/checkout' , {state :  { cartdata, childValue }})
  }
   const getCartProduct = async ()=>{
     console.warn('start 2');
