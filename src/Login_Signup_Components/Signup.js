@@ -100,7 +100,7 @@ const gotosignup=()=>{
               const { token } = await response.json();
               console.log(token)
               localStorage.setItem('token', token);
-    localStorage.setItem('uname', user.name);
+             localStorage.setItem('uname',formData.name);
               const user = jwtDecode(token);
               console.log('User:', user);
               setTimeout(() => {
