@@ -54,7 +54,7 @@ const [pId,setpId]=useState('');
 let content;
     if(props.screen==='mobile'){
       content =   
-      <div className="singleproduct" onClick={printprodeuctid} style={{width:'47%' , borderRadius:'10px'  , border: '3px solid #E1E1E1'}}>
+      <div className="singleproduct" onClick={printprodeuctid} style={{width:'45%' , borderRadius:'10px'  , border: '3px solid #E1E1E1'}}>
              <ToastContainer />
       <div className="image-container_MBOL">
       <img src={props.product.images[0]} style={{width:'100%',   height:'150px',backgroundColor:'#D4E5FF' ,alignContent:'center'} } alt='headphone' />
