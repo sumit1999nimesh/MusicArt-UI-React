@@ -1,0 +1,66 @@
+.content_singe_pro_UJH5{
+   display: flex;
+   flex-direction: row;
+   margin-top: 30px;
+}
+
+.all_image_conarine_IUJJ6{
+    width: 50%;
+    height: auto;
+   
+}
+.star{
+ width: 100px;
+ height: 20px;
+ display: inline;
+
+}
+.starone{
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+}
+
+.all_details_conarine_IUJJ6{
+    width: 50%;
+    height: 500px;
+
+}
+
+.product-image {
+   
+      
+  }
+  .productdel_TXT_9{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 39.81px;
+    text-align: left; 
+    margin-top: 5px;
+  }
+  .place_y_product_JHY2{
+    background-color: #FFD600;
+    width: 400px;
+    height: 52px;
+    top: 1457px;
+    left: 125px;
+    gap: 0px;
+    font-weight: 700;
+    border-radius: 25px;
+    opacity: 0px;
+    display: inline-block;
+    border-style: none;
+    margin-top: 20px;
+  }
+  .even-image {
+    border: 2px solid blue;
+    width: 80%;
+  }
+  
+  .odd-image {
+    border: 2px solid red; /* Example style for odd-indexed images */
+    width: 25%; /* Default width for all images */
+    margin-top: 10px;
+    margin-right: 14px;
+    
+  }

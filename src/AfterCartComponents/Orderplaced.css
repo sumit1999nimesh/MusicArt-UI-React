@@ -1,0 +1,383 @@
+.logo_Orderplaced{
+    float: left;
+    width: 100px;
+    height: 30px;
+    display: block;
+}
+
+.order_container_banner_child{
+    width: 60%;
+    height: 400px;
+    border-radius: 12px;
+    border:2px solid #D9D9D9;
+    text-align: center;
+}
+
+
+.order_container_banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+   margin-top: 40px;
+   height: 100vh;
+
+}
+.top_order_container{
+    padding-top: 30px;
+    padding-bottom: 65px;
+  
+
+}
+.congo_icon{
+    width: 100px;
+    height: 100px;
+
+
+}
+
+.order_txt{
+    font-family: Roboto;
+font-size: 20px;
+font-weight: 500;
+line-height: 32.81px;
+color: #969696;
+
+}
+
+.order_con_content{
+    margin-top: 50px;
+    margin-bottom: 50px ;
+}
+.btn_order_place_page{
+    width: 450px;
+height: 50px;
+top: 663px;
+left: 590px;
+color: white;
+border-radius: 15px;
+background-color: #2E0052;
+font-weight: bold;
+}
+.btn_order_place_page:hover {
+    color: red; /* Change to whatever color you want */
+  }
+
+  .btn_Checkout_place_page{
+    width: 200px;
+    height: 40px;
+    top: 663px;
+    left: 590px;
+    color: white;
+    border-radius: 15px;
+    background-color: #2E0052;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  .checkout_container_left_content{
+    width: 60%;
+    display: inline-block;
+  }
+  .checkout_container_left_DTGFt{
+    width: 70%;
+    display: inline-block;
+    height: 400px;
+  }
+  .scrollable_product_item{
+    overflow: scroll;
+    height: 100%
+  }
+  .img_cart_p_HNY2_mobile{
+    background-color: white;
+     width: 30%;
+    margin: 5px;
+    border-color: #2E0052; 
+    border: 2px solid;
+    border-radius: 10px;
+    display: inline-block;
+  }
+  .img_cart_p_HNY2{
+    width:20%;
+    margin: 20px;
+    border-color: #2E0052; 
+    border: 2px solid;
+    border-radius: 10px;
+    display: inline-block;
+  }
+  .txt_x_stock_UJY2{
+    font-size: 18px;
+    color: #A2A2A2;
+  }
+  .pro_details_cart{
+    display: inline-block;
+    margin: 10px;
+    vertical-align: top;
+  }
+  .order_place_btn_HY4{
+    background-color: #FFD600;
+    width: 96%;
+    height: 52px;
+    font-weight: 700;
+    border-radius: 5px;
+    opacity: 0px;
+    margin-left: 10px;
+  }
+  .order_place_btn_HY4_Mobile{
+    background-color: #FFD600;
+    width: 100%;
+    height: 52px;
+    font-weight: 700;
+    border-radius: 5px;
+    border-style: none;
+    opacity: 0px;
+  }
+  .quantity_drop_down_se4{
+    width: 80px;
+  }
+  .invoice_small_ne45{
+    width: 100%;
+  }
+  .invoice_small_ne45_uwnr{
+    width: 75%;
+  display: inline-flex; /* Use flexbox for layout */
+  align-items: center; 
+  flex-grow: 1
+  }
+  .div_for_tile_text{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 30px;
+    margin-top: 15px;
+  }
+  .div_for_tile_text_mobile{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+    max-width: 80%; 
+  }
+  .invoice_tile_txt{
+    display: inline-block;
+    vertical-align: top;
+   margin: 0%;
+   font-family: Roboto;
+font-size: 20px;
+font-weight: 400;
+line-height: 35px;
+text-align: left;
+color: #797979;
+word-break: break-word;
+
+  }
+  .invoice_tile_btn{
+    float: right;
+    width: 200px;
+    height: 40px;
+    top: 663px;
+    left: 590px;
+    color: white;
+    border-radius: 15px;
+    background-color: #2E0052;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  .invoice_tile_btn_mobile{
+    float: right;
+    width: 15%;
+    height: 40px;
+   margin-top: 10px;
+    color: white;
+    border-radius: 15px;
+    background-color: #2E0052;
+    font-weight: bold;
+
+  }
+  .input_label_checkout{
+    color: #B52B00;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 41.55px;
+    text-align: left;
+    display: inline-block;
+    margin-top: 0%;
+    margin-bottom: 0%;  
+  }
+  .input_txtoutput_checkout{
+    display: inline-block;
+    font-size: 20px;
+    font-family: Roboto;
+    margin-left: 21rem ;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    width: 224px;
+    color: #797979;
+  }
+  .pro_details_cart_mobile{
+    width: 60%;
+ vertical-align: top;
+ float:right;
+ text-align: left;
+ line-height: 180%;
+  }
+  .txt_x_stock_UJY2_UNHw{
+    color: black;
+    font-weight: 500;
+   margin-block-start: 0%;
+   margin-block-end: 0%;
+  }
+  .pro_mobile_cart_IJU6{
+    width: 100%;
+    height: 200px;
+    background-color: #DBDBDB;
+    margin-top: 20px;
+  }
+  .product_moblie_yht7{
+    width: 100%;
+    margin-top: 20px;
+  }
+  .input_txtoutput_checkout_mobile{
+    font-size: 20px;
+    font-family: Roboto;
+  color: #797979;
+  margin-left: 5% ;
+  word-wrap: break-word;
+  }
+  .nav_links_uUJ7R{
+    margin-left: 20px;
+    font-family: Roboto;
+font-weight: 400;
+text-align: left;
+cursor: pointer;
+display: inline-block;
+vertical-align: top;
+margin-top: 23px;
+  }
+  .input_txtoutput_checkout_IMG{
+    display: inline-block;
+    font-size: 20px;
+    font-family: Roboto;
+    margin-left: 400px ;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    width: 300px;
+  }
+  .input_txtoutput_checkout_IMG_MOBILE{
+    display: inline-block;
+    font-size: 20px;
+    font-family: Roboto;
+    width: 300px;
+    margin-left: 5%;
+  
+  }
+  .line_checkout{
+    border: 1px solid #E1E1E1;
+    width: 100%;
+}
+.p_image_checkout{
+    margin: 10px;
+    border: 1px solid #E1E1E1;
+   
+}
+.checkout_container_banner{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    overflow-x: hidden; 
+}
+.invoice_tile_image{
+  width: 100px;
+  display: inline-block;
+}
+.place_y_order_JHY2{
+    background-color: #FFD600;
+    width: 233px;
+    height: 52px;
+    top: 1457px;
+    left: 125px;
+    gap: 0px;
+    font-weight: 700;
+    border-radius: 5px;
+    border-style: none;
+    opacity: 0px;
+    display: inline-block;
+    
+}
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ccc; /* Default color */
+  margin: 0 5px;
+  cursor: pointer;
+}
+.carousel-container{
+   margin-top: 5%;
+   width: 100%;
+    overflow: hidden ;
+  
+}
+.boarder_caro{
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 20px;
+}
+.carosal_img_jas3{
+  width: 98%;
+  margin-left: 1%;
+  margin-right: 1%;
+   flex: 0 0 auto;
+  border-radius: 30px;
+}
+.prev-button{
+  border-style: none;
+  background-color: white;
+  width: 12px;
+}
+.dot{
+  margin-top:1px;
+}
+.dot.active {
+  background-color: #555; /* Active color */
+  
+}
+.sum_une_yhy4{
+
+    margin-left:300px;
+     margin-top:-60px;
+     line-height:20px;
+}
+.TNC_YHT_trh3{
+  
+    font-size: 15px;
+    font-family: Roboto;
+font-weight: 400;
+line-height: 23px;
+}
+
+.placeyour_container{
+    border: 2px solid #E1E1E1;
+    padding: 10px;
+    border-radius: 10px;
+}
+.checkout_container_right_content{
+   border: 2px solid #E1E1E1;
+    padding: 10px;
+    border-radius: 10px;
+    width: 30%;
+    margin-left: 50px;
+    height: 344px;
+}
+.YMU_UNY_8{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #797979;
+    display: inline;
+    float: left;
+    margin: 0%;
+}
+button:hover{
+  color: red;
+}
