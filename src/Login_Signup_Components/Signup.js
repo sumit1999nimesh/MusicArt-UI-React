@@ -136,7 +136,7 @@ const gotosignup=()=>{
       let content;
       if (screenSize < 600) {
      
-        content = <div className="signup_container"  style={{marginTop:'70px'}}>
+        content = <div className="signup_container"  style={{marginTop:'70px',paddingBottom:'50px'}}>
         <HeaderMobile></HeaderMobile>
         <h1 className="welcome_txt_THTY3">Welcome</h1>
         <form className="form" onSubmit={handleSubmit}>
