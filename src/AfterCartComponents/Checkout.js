@@ -26,7 +26,7 @@ const Checkout = () => {
   };
 
   const location = useLocation();
-  const props = location.state;
+  const props = location.state.cartdata;
   const [selectedProduct, setSelectedProduct] = useState(null);
   useEffect(()=>{
     if(localStorage.getItem('token') ===null){
@@ -47,7 +47,7 @@ const getProductDetails = async (pId)=>{
 
 }
 const getData= async ()=>{
-  let totalPricevalue =0;
+  
   {props.products && Object.entries(props.products).map(([productId, quantity]) => (
     //getProductDetails(productId)
 
@@ -66,9 +66,8 @@ const getData= async ()=>{
       .then(data => {
         setproductDetail(productDetail => [...productDetail,data]);
         setSelectedProduct(data);
-        let currentTprice = parseInt(data.price)*parseInt(quantity)
-           totalPricevalue = totalPricevalue + currentTprice ;
-        settPrice(totalPricevalue)
+        console.log('cc '+location.childValue);
+        settPrice(location.state.childValue)
        
         const Dorder = {
           productId: productId,
