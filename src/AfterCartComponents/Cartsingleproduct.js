@@ -6,7 +6,7 @@ import '../AfterCartComponents/Orderplaced.css';
 function Cartsingleproduct(props) {
     const [product, setProduct] = useState({});
     const [productId, setproductId] = useState(props.product);
-    
+    const [pprice,setpprice] =useState(0)
     const [quantit, setquantit] = useState(props.quant)
     const [selectedValue, setSelectedValue] = useState(props.quant);
    
@@ -37,7 +37,8 @@ function Cartsingleproduct(props) {
   })
   .then(data => {
     setProduct(data)
-    props.onValueChange( parseInt(props.quant)* parseInt(data.price));
+    setpprice(data.price);
+    props.onValueChange(parseInt(quantit)* parseInt(data.price));
   })
   .catch(error => {
     console.error('Server Error:', error);
@@ -61,10 +62,13 @@ function Cartsingleproduct(props) {
     if (!response.ok) {
       throw new Error('Network response was not ok');
     }
+    console.log( ' value 1 ' +quantity +' '+pprice+' '+quantit)  
+    props.onValueChange((parseInt(quantity)* parseInt(pprice) )- (parseInt(quantit)*parseInt(pprice)));
+    
     return response.json();
   })
   .then(data => {
-    console.warn(data +'data')
+   
   })
   .catch(error => {
     console.error('Server Error:', error);
