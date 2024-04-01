@@ -106,7 +106,7 @@ const gotosignup=()=>{
               setTimeout(() => {
             }, 3000);
             console.log('logged in');
-              navigate('/home');
+              navigate('/');
             } else {
               console.error('Invalid email or password');
             }
